@@ -1,1 +1,42 @@
 /* место для вашего кода */
+
+.header {
+  padding: 92px 49px 92px 51px;
+  display: grid;
+  grid-template-columns: 388px 1fr 240px;
+  grid-template-rows: 109px;
+}
+
+.header-menu {
+  display: flex;
+  flex-direction: row;
+  gap: 13px;
+  padding-top: 43px;
+  padding-bottom: 45px;
+}
+
+.header-menu-item {
+  font-family: Raleway;
+  font-size: 18px;
+  text-wrap: nowrap;
+}
+
+.list_marker {
+  width: 7px;
+  height: 7px;
+}
+
+.header-contacts {
+  color: #000;
+  font-family: Raleway;
+  font-size: 18px;
+  line-height: 24.3px; /* 135% */
+  padding-top: 5px;
+}
+
+.logo-black {
+  display: flex;
+  width: 148px;
+  height: 105px;
+  margin-left: 290px;
+}
