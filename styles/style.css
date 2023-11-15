@@ -1,4 +1,8 @@
 /* место для вашего кода */
+body {
+  width: 1440px;
+  height: 2844px;
+}
 
 .header {
   padding: 92px 49px 92px 51px;
@@ -13,12 +17,14 @@
   gap: 13px;
   padding-top: 43px;
   padding-bottom: 45px;
+
 }
 
 .header-menu-item {
   font-family: Raleway;
   font-size: 18px;
   text-wrap: nowrap;
+  
 }
 
 .list_marker {
@@ -38,5 +44,78 @@
   display: flex;
   width: 148px;
   height: 105px;
-  margin-left: 290px;
+  margin-left: 209px;
+}
+.cover {
+  display: flex;
+  width: 1440px;
+  height: 757px;
+  background-image: url(../images/cover.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.overlay {
+  background: #000;
+  opacity: 0.6;
+  position: absolute;
+  width: 1440px;
+  height: 757px;
+}
+
+.cover__title {
+  display: flex;
+  color: #fff;
+  font-size: 100px;
+  font-weight: 700;
+  line-height: 1;
+  text-transform: uppercase;
+  letter-spacing: 30px;
+
+  z-index: 1;
+}
+
+.text-left {
+  display: block;
+  padding: 165px 50px 477px 50px;
+  text-align: left;
+  text-wrap: nowrap;
+}
+
+.text-center {
+  display: block;
+  padding: 300px 110px 357px 50px;
+  text-align: center;
+  text-wrap: nowrap;
+}
+.text-right {
+  display: block;
+  padding: 420px 50px 237px 50px;
+  text-align: right;
+  text-wrap: nowrap;
+}
+.cover__description {
+  padding: 667px 385px 62px 422px;
+  color: #fff;
+  font-size: 22px;
+  line-height: 28px; /* 127.273% */
+  text-transform: uppercase;
+  position: absolute;
+  word-spacing: 15px;
+  
+}
+.bet-button {
+  margin: 655px 50px 50px 1133px;
+  width: 257px;
+  height: 52px;
+  color: #fff;
+  font-size: 22px;
+  text-transform: uppercase;
+  position: absolute;
+  border: 1px solid #FFF;  
+}
+.bet {
+  display: flex;
+  padding: 12px 32px;
+  text-wrap: nowrap;
 }
