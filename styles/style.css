@@ -17,13 +17,15 @@ body {
   gap: 13px;
   padding-top: 43px;
   padding-bottom: 45px;
-
 }
 
 .header-menu-item {
   font-family: Raleway;
   font-size: 18px;
   text-wrap: nowrap;
+}
+.text-line {
+  text-decoration: underline;
   
 }
 
@@ -34,7 +36,6 @@ body {
 
 .header-contacts {
   color: #000;
-  font-family: Raleway;
   font-size: 18px;
   line-height: 24.3px; /* 135% */
   padding-top: 5px;
@@ -58,9 +59,9 @@ body {
 .overlay {
   background: #000;
   opacity: 0.6;
-  position: absolute;
   width: 1440px;
   height: 757px;
+  
 }
 
 .cover__title {
@@ -68,32 +69,35 @@ body {
   color: #fff;
   font-size: 100px;
   font-weight: 700;
-  line-height: 1;
   text-transform: uppercase;
   letter-spacing: 30px;
-
-  z-index: 1;
+  word-spacing: -30px;
+  position: absolute;
 }
 
 .text-left {
   display: block;
-  padding: 165px 50px 477px 50px;
+  padding-top: 165px;
+  padding-left:50px;
   text-align: left;
   text-wrap: nowrap;
 }
 
 .text-center {
   display: block;
-  padding: 300px 110px 357px 50px;
-  text-align: center;
+  padding-top: 300px;
+  padding-left: 110px;
   text-wrap: nowrap;
 }
+
 .text-right {
   display: block;
-  padding: 420px 50px 237px 50px;
+  padding-top: 420px;
+  padding-left: 90px;
   text-align: right;
   text-wrap: nowrap;
 }
+
 .cover__description {
   padding: 667px 385px 62px 422px;
   color: #fff;
@@ -101,8 +105,7 @@ body {
   line-height: 28px; /* 127.273% */
   text-transform: uppercase;
   position: absolute;
-  word-spacing: 15px;
-  
+  word-spacing: 17px;
 }
 .bet-button {
   margin: 655px 50px 50px 1133px;
@@ -112,9 +115,9 @@ body {
   font-size: 22px;
   text-transform: uppercase;
   position: absolute;
-  border: 1px solid #FFF;  
+  border: 1px solid #fff;
 }
-.bet {
+.bet-text {
   display: flex;
   padding: 12px 32px;
   text-wrap: nowrap;
