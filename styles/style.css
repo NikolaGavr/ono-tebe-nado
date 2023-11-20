@@ -150,7 +150,6 @@ body {
   padding: 50px 40px;
   background-size: cover;
   background-position: center;
-  background-size: contain;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -270,7 +269,7 @@ body {
   font-weight: 400;
   text-transform: none;
   line-height: normal;
-  font-size: 20px;
+  
 }
 
 .text-2 {
