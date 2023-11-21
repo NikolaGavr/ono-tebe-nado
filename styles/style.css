@@ -198,6 +198,7 @@ address {
 .card__text {
   display: flex;
   flex-direction: column;
+  gap: 30px;
   justify-content: space-between;
   z-index: 2;
 }
