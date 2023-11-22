@@ -158,7 +158,6 @@ address {
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 74px 1fr 55px;
   column-gap: 25px;
-  
 }
 
 .lots__heading {
@@ -185,7 +184,7 @@ address {
 .lot-film {
   grid-row: 2/3;
   grid-column: 1/2;
-  grid-auto-columns:auto;
+  grid-auto-columns: auto;
   grid-auto-rows: auto;
   background-image: url(../images/card-lot-01.jpg);
 }
@@ -193,7 +192,7 @@ address {
 .lot-book {
   grid-row: 2/3;
   grid-column: 2/3;
-  grid-auto-columns:auto;
+  grid-auto-columns: auto;
   grid-auto-rows: auto;
   background-image: url(../images/card-lot-02.jpg);
 }
@@ -201,7 +200,7 @@ address {
 .lot-picture {
   grid-row: 2/3;
   grid-column: 3/4;
-  grid-auto-columns:auto;
+  grid-auto-columns: auto;
   grid-auto-rows: auto;
   background-image: url(../images/card-lot-03.jpg);
 }
@@ -268,10 +267,14 @@ address {
 .about {
   width: 885px;
   margin-top: 100px;
+  align-content: space-between;
+}
+.about_title {
+  color: #000;
   font-size: 40px;
   font-weight: 700;
+  line-height: normal;
   text-transform: uppercase;
-  align-content: space-between;
 }
 
 .about_text-up {
@@ -292,7 +295,7 @@ address {
 
 footer {
   display: flex;
-  margin: 180px 50px 90px 50px;
+  margin: 178px 50px 90px 50px;
   width: 1340px;
   font-size: 18px;
   font-style: normal;
@@ -312,6 +315,7 @@ footer {
 
 .footer_menu {
   display: flex;
+  
 }
 
 .footer__social-icon {
@@ -322,7 +326,10 @@ ul {
   display: flex;
   flex-direction: column;
   text-align: center;
-  gap: 7px;
+  row-gap: 0px;
+  }
+.gap{
+  word-spacing: -5px;
 }
 
 .footer__social-list {
