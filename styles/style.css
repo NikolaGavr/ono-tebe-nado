@@ -29,11 +29,11 @@ address {
   max-width: 240px;
 }
 
-.text-line {
+.header__link_active {
   text-underline-offset: 5px;
   text-decoration-thickness: 1px;
 }
-.text-noline {
+.header__link {
   text-decoration: none;
   font-style: normal;
 }
@@ -91,7 +91,7 @@ address {
   z-index: 2;
 }
 
-.ligned-text_center {
+.aligned-text_center {
   display: block;
   padding-top: 291px;
   padding-left: 112px;
@@ -122,7 +122,7 @@ address {
   font-size: 22px;
   line-height: 28px; /* 127.273% */
   text-transform: uppercase;
-  white-space: nowrap;
+
   word-spacing: 18px;
   z-index: 2;
 }
@@ -142,20 +142,27 @@ address {
   padding: 10px 32px;
   color: #fff;
   text-align: center;
+  font-family: Raleway;
   font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
   text-transform: uppercase;
   white-space: nowrap;
+  cursor: pointer;
 }
 .lots {
   width: 1340px;
-  margin: 180px 50px 181px 50px;
+  margin: 180px 50px 181px;
   display: grid;
-  grid-template-columns: 1fr 25px 1fr 25px 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 74px 1fr 55px;
+  column-gap: 25px;
+  
 }
 
 .lots__heading {
-  grid-row: 1/6;
+  grid-row: 1/4;
   grid-column: 1/2;
   padding-left: 40px;
   color: #000;
@@ -178,18 +185,24 @@ address {
 .lot-film {
   grid-row: 2/3;
   grid-column: 1/2;
+  grid-auto-columns:auto;
+  grid-auto-rows: auto;
   background-image: url(../images/card-lot-01.jpg);
 }
 
 .lot-book {
   grid-row: 2/3;
-  grid-column: 3/4;
+  grid-column: 2/3;
+  grid-auto-columns:auto;
+  grid-auto-rows: auto;
   background-image: url(../images/card-lot-02.jpg);
 }
 
 .lot-picture {
   grid-row: 2/3;
-  grid-column: 5/6;
+  grid-column: 3/4;
+  grid-auto-columns:auto;
+  grid-auto-rows: auto;
   background-image: url(../images/card-lot-03.jpg);
 }
 .card__text {
@@ -221,7 +234,7 @@ address {
 
 .lots__look-more-link {
   grid-row: 3/4;
-  grid-column: 1/2;
+  grid-column: 1/4;
   padding-top: 30px;
   padding-left: 40px;
   color: #000;
@@ -309,6 +322,7 @@ ul {
   display: flex;
   flex-direction: column;
   text-align: center;
+  gap: 7px;
 }
 
 .footer__social-list {
