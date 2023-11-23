@@ -1,5 +1,5 @@
 .header {
-  padding: 94px 49px 92px 51px;
+  padding: 92px 49px 92px 51px;
   display: grid;
   grid-template-columns: 388px 1fr 240px;
   grid-template-rows: 109px;
@@ -112,7 +112,7 @@ address {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 128px 49px 53px 50px;
+  padding: 128px 49px 55px 50px;
 }
 .cover__description-text {
   display: block;
