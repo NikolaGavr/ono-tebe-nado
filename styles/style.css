@@ -112,7 +112,7 @@ address {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 128px 49px 55px 50px;
+  padding: 128px 49px 52px 50px;
 }
 .cover__description-text {
   display: block;
@@ -300,7 +300,7 @@ justify-content: space-between;
 
 footer {
   display: flex;
-  margin: 178px 50px 90px 50px;
+  margin: 180px 50px 90px 50px;
   width: 1340px;
   font-size: 18px;
   font-style: normal;
