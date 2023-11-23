@@ -1,3 +1,4 @@
+
 .header {
   padding: 92px 49px 92px 51px;
   display: grid;
@@ -112,7 +113,7 @@ address {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 128px 49px 52px 50px;
+  padding: 127px 49px 50px 50px;
 }
 .cover__description-text {
   display: block;
@@ -139,7 +140,7 @@ address {
 
 .bet-text {
   background-color: transparent;
-  padding: 10px 32px;
+  padding: 9px 32px;
   color: #fff;
   text-align: center;
   font-family: Raleway;
@@ -263,8 +264,8 @@ justify-content: space-between;
 }
 
 .about__logo-image {
-  margin-top: 63px;
-  margin-left: 46px;
+  margin-top: 64px;
+  margin-left: 44px;
   width: 144px;
 }
 
@@ -283,24 +284,24 @@ justify-content: space-between;
 }
 
 .about_text-up {
-  padding-top: 100px;
+  padding-top: 102px;
   font-size: 20px;
   font-weight: 400;
   text-transform: none;
-  line-height: 1.14;
+  line-height: 1.15;
 }
 
 .about_text-down {
-  padding-top: 25px;
+  padding-top: 30px;
   font-size: 20px;
   font-weight: 400;
   text-transform: none;
-  line-height: 1.1;
+  line-height: 1.15;
 }
 
 footer {
   display: flex;
-  margin: 180px 50px 90px 50px;
+  margin: 181px 50px 90px 50px;
   width: 1340px;
   font-size: 18px;
   font-style: normal;
