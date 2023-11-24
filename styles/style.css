@@ -1,7 +1,7 @@
 .header {
   padding: 92px 49px 92px 51px;
   display: grid;
-  grid-template-columns: 388px 1fr 240px;
+  grid-template-columns: 388px 1fr 241px;
   grid-template-rows: 109px;
 }
 
@@ -30,7 +30,7 @@
 }
 
 address {
-  max-width: 243px;
+  max-width: 241px;
 }
 
 .header__link_active {
