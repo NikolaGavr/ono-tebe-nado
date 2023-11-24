@@ -118,12 +118,12 @@ address {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 127px 49px 53px 50px;
+  padding: 127px 49px 54px 50px;
 }
 
 .cover__description-text {
   display: block;
-  padding-left: 374px;
+  padding-left: 372px;
   padding-top: 12px;
   color: #fff;
   font-size: 22px;
