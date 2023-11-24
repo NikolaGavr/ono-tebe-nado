@@ -118,7 +118,7 @@ address {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 127px 49px 51px 50px;
+  padding: 127px 49px 55px 50px;
 }
 
 .cover__description-text {
@@ -148,7 +148,7 @@ button {
 
 .bet-text {
   background-color: transparent;
-  padding: 10px 33px;
+  padding: 11px 29px;
   color: #fff;
   text-align: center;
   font-family: "Raleway", "Arial", sans-serif;
