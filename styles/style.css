@@ -288,19 +288,18 @@ button {
   text-transform: uppercase;
 }
 
+.about_text_direction {
+display: flex;
+flex-direction: column;
+margin-top: 100px;
+gap: 30px;
+}
+
 .about_text {
   font-size: 20px;
   font-weight: 400;
   text-transform: none;
   line-height: 1.15;
-}
-
-.about_text-up {
-  padding-top: 102px;
-}
-
-.about_text-down {
-  padding-top: 30px;
 }
 
 footer {
