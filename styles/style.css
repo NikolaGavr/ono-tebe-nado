@@ -30,7 +30,7 @@
 }
 
 address {
-  max-width: 241px;
+  max-width: 242px;
 }
 
 .header__link_active {
@@ -271,7 +271,7 @@ button {
 
 .about__logo-image {
   margin-top: 64px;
-  margin-left: 40px;
+  margin-left: 39px;
   width: 144px;
 }
 
