@@ -30,7 +30,7 @@
 }
 
 address {
-  max-width: 240px;
+  max-width: 241px;
 }
 
 .header__link_active {
@@ -289,10 +289,10 @@ button {
 }
 
 .about_text_direction {
-display: flex;
-flex-direction: column;
-margin-top: 100px;
-gap: 30px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  gap: 30px;
 }
 
 .about_text {
